@@ -117,13 +117,24 @@ article:nth-child(even) .card-body {
    justify-content: flex-end;
 }
 
+article .card-body .card-text {
+   text-align: left;
+}
+
 article:nth-child(even) .card-body .card-text {
    text-align: right;
 }
 
-article:nth-child(odd) .card-body .card-text {
+@media (max-width: 576px){
+  article:nth-child(even) .card-body {
+     justify-content: flex-start;
+  }
+
+  article:nth-child(even) .card-body .card-text {
    text-align: left;
+  }
 }
+
 
 article .card-title {
   font-weight: 600;
