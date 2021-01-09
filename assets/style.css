@@ -94,6 +94,7 @@ article.card {
   border: 0;
   margin: 0 auto;
   font-size: 1.2rem;
+  font-weight: 300;
   line-height: 2rem;
 }
 
@@ -149,4 +150,10 @@ article .card-title {
 footer {
   background-color: #57bf73;
   color: #fff;
+  font-weight: 300;
+}
+
+footer .cem {
+  unicode-bidi: bidi-override;
+  direction: rtl;
 }
